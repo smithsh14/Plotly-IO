@@ -1,27 +1,18 @@
-.jumbotron {
-	color: #49a81d;
-	font-family: Arial, Helvetica, sans-serif;
-    padding-left: 80px;
-
-}
-
-#metaPanel {
-	font-size: smaller;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #49a81d;
-}
-
-#metaPanel .panel-header {
+.panel-default > .panel-heading-custom {
+    background: #D24E68; color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
 }
 
-#selDataset {
-	padding: 20px;
-    color: black;
+.jumbotron {
+	background-image: url("../img/header.png");
+	background-size: 100%;
+    text-align: center;   
 }
 
-#samplePanel {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #49a81d;
+.jumbotron > h1 {
+    text-shadow: 1px 1px 2px black;
 }
